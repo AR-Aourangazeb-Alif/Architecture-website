@@ -3,3 +3,7 @@
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+
+html{
+    overflow-x: hidden;
+}
