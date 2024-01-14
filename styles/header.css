@@ -77,11 +77,25 @@ header nav img{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:576px){
 
 
     header{
-        height: 100vh;
+        min-height: 100vh;
+        height:fit-content;
+        padding-bottom: 10vw;
     }
 
     #banner-container{
@@ -112,6 +126,7 @@ header nav img{
         font-size: 5vw;
         line-height: 5.35vw;
         margin-bottom: 1.5vw;
+        text-align: justify;
     }
 
     #banner{
@@ -126,18 +141,4 @@ header nav img{
 
 
     
-}
-
-
-@media screen and (max-height:750px){
-
-    #banner h1{
-        font-size: 7vw;
-    }
-    #banner p{
-        font-size: 3vw;
-        line-height: 3.5vw;
-        margin-bottom: 1.5vw;
-    }
-
 }
